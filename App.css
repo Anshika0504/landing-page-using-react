@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container{
+  width:100%;
+  min-height: 100vh;
+  background-image:linear-gradient(rgb(9,0,77,.65)) ;
+  background-image: url("https://source.unsplash.com/random/1920x1080/?wallpaper,landscape");
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+}
+nav{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+
+}
+.logo{
+  height:50px;
+  width:100px;
+}
+.aero{
+  height:50px;
+  width:50px;
+  color: #fff;
+  
+  
+}
+nav ul{
+  
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  width: 100%;
+  text-align: right;
+  padding: 60px;
+  
+}
+.button{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  background-color: brown;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 10px 20px;
+}
+/*header*/
+.content{
+margin-top: 8%;
+color: #fff;
+max-width: 620px;
+}
+.content h1{
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 85px;
+  margin-bottom: 25px;
+}
+.content form{
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 30px;
+}
+.content form input{
+  border: 0;
+  outline: 0;
+  width: 100%;
+  font-size: 16px;
+  padding-left: 16px;
+}
+.btn{
+  font-size: 15px;
+  padding: 10px 15px;
+  color: white;
+  background: brown;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
